@@ -1,0 +1,248 @@
+body {
+  background-image: url("http://3.bp.blogspot.com/-QdxgxGfqt6o/Vdsh5CwnRKI/AAAAAAAEUao/3YqZ0zMdhhw/s1600/15%2B%25281%2529.jpg");
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+header {
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(160, 68, 170), rgba(4, 184, 85, 0.452));
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  font-size: 65px;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+h2 {
+  background: linear-gradient(to bottom, rgb(87, 23, 94), rgba(185, 16, 16, 0.986));
+  font-size: 40px;
+  border: 2px black solid;
+}
+
+h3 {
+  background-color: rgb(211, 122, 20);
+  font-size: 28px;
+  font-weight: 900;
+}
+
+p {
+  color: rgb(29, 3, 36);
+  font-size: large;
+  font-weight: 900;
+}
+
+.diagrama {
+  height: 200px;
+}
+
+.calendario {
+  height: 200px;
+}
+
+.circular {
+  height: 300px;
+}
+
+.barras {
+  height: 300px;
+}
+
+.video {
+  height: 250px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+  font-size: 25px;
+  background: linear-gradient(rgb(164, 247, 247), rgb(0, 87, 87));
+  max-width: 100%;
+}
+
+.logoServicios {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 1294px;
+  top: 45px;
+  height: 197px;
+  margin: auto;
+}
+
+.logoQuienes {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 1294px;
+  top: 45px;
+  height: 197px;
+  margin: auto;
+}
+
+.logoNuestro {
+  display: flex;
+  position: absolute;
+  top: 0px;
+  left: 1294px;
+  top: 45px;
+  height: 197px;
+  margin: auto;
+}
+
+.logoContacto {
+  max-height: 50%;
+  max-width: 100%;
+}
+
+.contactoHeader {
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(160, 68, 170), rgba(4, 184, 85, 0.452));
+}
+
+.nuestroHeader {
+  height: 200px;
+  background: linear-gradient(to bottom, rgb(160, 68, 170), rgba(4, 184, 85, 0.452));
+}
+
+.contenedorMaestro {
+  display: grid;
+  grid-template-areas: "instagram" "facebook" "whatsapp" "mail";
+  max-height: 100%;
+  max-width: 100%;
+  margin: auto;
+  gap: 5px;
+}
+
+.medialinkUno {
+  background: linear-gradient(to top, #dd2a7b, #8134af, #515bd4);
+  grid-area: instagram;
+  font-size: 20px;
+  border: 3px rgb(23, 0, 128) solid;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.medialinkDos {
+  background: linear-gradient(to top, #221fd3, #4f4a8f, #464c8f);
+  grid-area: facebook;
+  font-size: 20px;
+  border: 3px rgb(23, 0, 128) solid;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.medialinkTres {
+  background: linear-gradient(to top, #0dff19, #fefbff);
+  grid-area: whatsapp;
+  font-size: 20px;
+  border: 3px rgb(23, 0, 128) solid;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.medialinkCuatro {
+  background: linear-gradient(to top, #690d69, #3c0b3d, #960f6d);
+  grid-area: mail;
+  font-size: 18px;
+  border: 3px rgb(23, 0, 128) solid;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.carouselUno {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.carouselDos {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.contenedorPadre {
+  display: grid;
+  grid-template-areas: "carruselUno logoOne carruselDos";
+}
+
+.carruselUno {
+  grid-area: carruselUno;
+}
+
+.carruselDos {
+  grid-area: carruselDos;
+}
+
+.logoOne {
+  grid-area: logoOne;
+}
+
+.logo {
+  height: 100%;
+  max-width: 100%;
+}
+
+.contenedorInicio {
+  display: grid;
+  grid-template-areas: "tituloInicio men men";
+}
+
+.tituloindex {
+  grid-area: tituloInicio;
+}
+
+.navbar {
+  grid-area: men;
+}
+
+.contenedorDiosInicio {
+  max-width: 100%;
+}
+
+.contenedorPadre {
+  width: 100%;
+  height: 100%;
+}
+
+.principalInicio {
+  width: 100%;
+}
+
+.footerInicio {
+  width: 100%;
+}
+
+.contenedorDiosContacto {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contactoHeader {
+  display: grid;
+  grid-template-areas: "logo titulo" "logo";
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.logo {
+  grid-area: logo;
+}
+
+.tituloPrincipal {
+  grid-area: titulo;
+}
+
+.mediado {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*# sourceMappingURL=estilo.css.map */
