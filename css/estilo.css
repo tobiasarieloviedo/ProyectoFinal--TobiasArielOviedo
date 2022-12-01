@@ -15,47 +15,66 @@ main {
 }
 
 h1 {
-  font-size: 65px;
+  font-size: 70px;
   max-height: 100%;
   max-width: 100%;
+  text-transform: uppercase;
 }
 
 h2 {
   background: linear-gradient(to bottom, rgb(87, 23, 94), rgba(185, 16, 16, 0.986));
-  font-size: 40px;
+  font-size: 45px;
   border: 2px black solid;
+  text-transform: uppercase;
 }
 
 h3 {
   background-color: rgb(211, 122, 20);
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 900;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 p {
+  columns: 2;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: rgb(29, 3, 36);
-  font-size: large;
-  font-weight: 900;
+  font: bolder;
+  font-size: x-large;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .diagrama {
-  height: 200px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .calendario {
-  height: 200px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .circular {
-  height: 300px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .barras {
-  height: 300px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .video {
-  height: 250px;
+  max-height: 100%;
+  width: 1px;
 }
 
 footer {
@@ -63,9 +82,10 @@ footer {
 }
 
 .navbar {
-  font-size: 25px;
+  text-transform: uppercase;
   background: linear-gradient(rgb(164, 247, 247), rgb(0, 87, 87));
   max-width: 100%;
+  font-size: 42px;
 }
 
 .logoServicios {
@@ -125,7 +145,7 @@ footer {
 .medialinkUno {
   background: linear-gradient(to top, #dd2a7b, #8134af, #515bd4);
   grid-area: instagram;
-  font-size: 20px;
+  font-size: 24px;
   border: 3px rgb(23, 0, 128) solid;
   max-height: 100%;
   max-width: 100%;
@@ -134,7 +154,7 @@ footer {
 .medialinkDos {
   background: linear-gradient(to top, #221fd3, #4f4a8f, #464c8f);
   grid-area: facebook;
-  font-size: 20px;
+  font-size: 24px;
   border: 3px rgb(23, 0, 128) solid;
   max-height: 100%;
   max-width: 100%;
@@ -143,7 +163,7 @@ footer {
 .medialinkTres {
   background: linear-gradient(to top, #0dff19, #fefbff);
   grid-area: whatsapp;
-  font-size: 20px;
+  font-size: 24px;
   border: 3px rgb(23, 0, 128) solid;
   max-height: 100%;
   max-width: 100%;
@@ -152,7 +172,7 @@ footer {
 .medialinkCuatro {
   background: linear-gradient(to top, #690d69, #3c0b3d, #960f6d);
   grid-area: mail;
-  font-size: 18px;
+  font-size: 24px;
   border: 3px rgb(23, 0, 128) solid;
   max-height: 100%;
   max-width: 100%;
@@ -243,6 +263,13 @@ footer {
 .mediado {
   max-width: 100%;
   max-height: 100%;
+}
+
+.form {
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=estilo.css.map */
