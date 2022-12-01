@@ -53,28 +53,28 @@ p {
 }
 
 .diagrama {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 40%;
+  max-width: 40%;
 }
 
 .calendario {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 40%;
+  max-width: 40%;
 }
 
 .circular {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 40%;
+  max-width: 40%;
 }
 
 .barras {
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 40%;
+  max-width: 40%;
 }
 
 .video {
   max-height: 100%;
-  width: 1px;
+  max-width: 100%;
 }
 
 footer {
@@ -86,36 +86,6 @@ footer {
   background: linear-gradient(rgb(164, 247, 247), rgb(0, 87, 87));
   max-width: 100%;
   font-size: 42px;
-}
-
-.logoServicios {
-  display: flex;
-  position: absolute;
-  top: 0px;
-  left: 1294px;
-  top: 45px;
-  height: 197px;
-  margin: auto;
-}
-
-.logoQuienes {
-  display: flex;
-  position: absolute;
-  top: 0px;
-  left: 1294px;
-  top: 45px;
-  height: 197px;
-  margin: auto;
-}
-
-.logoNuestro {
-  display: flex;
-  position: absolute;
-  top: 0px;
-  left: 1294px;
-  top: 45px;
-  height: 197px;
-  margin: auto;
 }
 
 .logoContacto {
